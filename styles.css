@@ -737,3 +737,23 @@ p {
   background: var(--coral);
   color: #fff;
 }
+.resume-btn {
+
+.btn:hover {
+  background: transparent;
+  color: var(--brown);
+  border-color: var(--coral);
+  margin-left: 1px;
+}
+.btn--ghost:hover {
+  background: var(--coral);
+  color: #fff;
+}
+
+.resume-btn:hover {
+    font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--brown);
+  padding: 4px 0;
+  border-bottom: 1px solid transparent;
