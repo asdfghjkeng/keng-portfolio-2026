@@ -737,23 +737,23 @@ p {
   background: var(--coral);
   color: #fff;
 }
-.resume-btn {
-
-.btn:hover {
-  background: transparent;
-  color: var(--brown);
-  border-color: var(--coral);
-  margin-left: 1px;
+.nav__links {
+  align-items: center;
 }
-.btn--ghost:hover {
+.nav__links a.nav__cta {
+  padding: 8px 16px;
   background: var(--coral);
   color: #fff;
+  border: 1px solid var(--coral);
+  transition: background 0.2s;
+}
+.nav__links a.nav__cta:hover {
+  background: var(--coral-deep);
+  border-color: var(--coral-deep);
 }
 
-.resume-btn:hover {
-    font-size: 0.72rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--brown);
-  padding: 4px 0;
-  border-bottom: 1px solid transparent;
+@media (max-width: 640px) {
+  .nav__links a.nav__cta {
+    padding: 6px 10px;
+  }
+}
