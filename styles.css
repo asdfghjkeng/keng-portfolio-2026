@@ -10,7 +10,6 @@
   --brown: #3b2a22;
   --muted: #7a6a62;
   --line: #e8c9b9;
-  --body: #8f4115;
 
   --serif: "Cormorant Garamond", "Times New Roman", serif;
   --sans: "Jost", system-ui, sans-serif;
@@ -34,7 +33,7 @@ html {
 body {
   margin: 0;
   background: var(--bg);
-  color: #be5a20;
+  color: var(--ink);
   font-family: var(--sans);
   font-weight: 300;
   line-height: 1.6;
